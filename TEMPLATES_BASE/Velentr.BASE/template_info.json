@@ -1,0 +1,48 @@
+{
+  "Name": "1",
+  "Description": "2",
+  "Author": "3",
+  "Version": "4",
+  "Settings": {
+    "DefaultAuthor": "5",
+    "DefaultCompanyName": "6",
+    "DefaultSolutionName": "7",
+    "DefaultSolutionNameFormat": "8",
+    "DefaultDescription": "9",
+    "NugetSettings": {
+      "AskForNugetInfo": false,
+      "DefaultNugetLicense": "",
+      "DefaultNugetTags": ""
+    },
+    "DirectoriesExcludedInPrepare": [
+      "22",
+      "23"
+    ],
+    "RenameOnlyFilesAndDirectories": [
+      "10",
+      "11"
+    ],
+    "ReplacementText": [
+      {
+        "Item1": "12",
+        "Item2": "13"
+      },
+      {
+        "Item1": "14",
+        "Item2": "15"
+      }
+    ],
+    "Commands": [
+      "18",
+      "19"
+    ],
+    "Instructions": [
+      "16",
+      "17"
+    ],
+    "CleanupFilesAndDirectories": [
+      "20",
+      "21"
+    ]
+  }
+}
