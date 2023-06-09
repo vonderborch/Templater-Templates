@@ -1,48 +1,39 @@
 {
-  "Name": "1",
-  "Description": "2",
-  "Author": "3",
-  "Version": "4",
+  "Name": "Velentr.BASE",
+  "Description": "A generic library for an FNA/Monogame program that doesn't require any specific support for FNA or Monogame.",
+  "Author": "Christian Webber",
+  "Version": "2023-08-06",
   "Settings": {
-    "DefaultAuthor": "5",
-    "DefaultCompanyName": "6",
-    "DefaultSolutionName": "7",
-    "DefaultSolutionNameFormat": "8",
-    "DefaultDescription": "9",
+    "DefaultAuthor": "<CurrentFullName>",
+    "DefaultCompanyName": "<CurrentFullName>",
+    "DefaultSolutionName": "GenericLibrary",
+    "DefaultSolutionNameFormat": "<ParentDir>.",
+    "DefaultDescription": "A library",
     "NugetSettings": {
-      "AskForNugetInfo": false,
-      "DefaultNugetLicense": "",
-      "DefaultNugetTags": ""
+      "AskForNugetInfo": true,
+      "DefaultNugetLicense": "MIT",
+      "DefaultNugetTags": "Velentr,"
     },
     "DirectoriesExcludedInPrepare": [
-      "22",
-      "23"
+      "bin",
+      "obj",
+      ".vs",
+      ".git",
+      "fna",
+      "fnalibs",
+      "release"
     ],
     "RenameOnlyFilesAndDirectories": [
-      "10",
-      "11"
+      "logo.png"
     ],
     "ReplacementText": [
       {
-        "Item1": "12",
-        "Item2": "13"
-      },
-      {
-        "Item1": "14",
-        "Item2": "15"
+        "Item1": "Velentr.BASE",
+        "Item2": "<ProjectName>"
       }
     ],
-    "Commands": [
-      "18",
-      "19"
-    ],
-    "Instructions": [
-      "16",
-      "17"
-    ],
-    "CleanupFilesAndDirectories": [
-      "20",
-      "21"
-    ]
+    "Commands": [],
+    "Instructions": [],
+    "CleanupFilesAndDirectories": []
   }
 }
