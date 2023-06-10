@@ -2,10 +2,10 @@
   "Name": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
   "Description": "A library with individual implementations for FNA and Monogame, as well as a generic implementation.",
   "Author": "Christian Webber",
-  "Version": "2023-06-09",
+  "Version": "2023-06-09.2",
   "Settings": {
-    "DefaultAuthor": "<CurrentFullName>",
-    "DefaultCompanyName": "<CurrentFullName>",
+    "DefaultAuthor": "<CurrentUserName>",
+    "DefaultCompanyName": "<CurrentUserName>",
     "DefaultSolutionName": "GenericLibrary",
     "DefaultSolutionNameFormat": "<ParentDir>.",
     "DefaultDescription": "A library",
@@ -35,15 +35,15 @@
     "ReplacementText": [
       {
         "Item1": "Velentr.BASE",
-        "Item2": "<ProjectName>"
+        "Item2": "<SolutionName>"
       },
       {
         "Item1": "Velentr.DUAL_SUPPORT",
-        "Item2": "<ProjectName>"
+        "Item2": "<SolutionName>"
       },
       {
         "Item1": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
-        "Item2": "<ProjectName>"
+        "Item2": "<SolutionName>"
       }
     ],
     "Commands": [
