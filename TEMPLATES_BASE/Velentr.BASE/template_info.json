@@ -2,7 +2,7 @@
   "Name": "Velentr.BASE",
   "Description": "A generic library for an FNA/Monogame program that doesn't require any specific support for FNA or Monogame.",
   "Author": "Christian Webber",
-  "Version": "2023-06-09.2",
+  "Version": "2023-06-26",
   "Settings": {
     "DefaultAuthor": "<CurrentUserName>",
     "DefaultCompanyName": "<CurrentUserName>",
@@ -33,6 +33,8 @@
       }
     ],
     "Commands": [],
+    "CommandsMac": [],
+    "CommandsLinux": [],
     "Instructions": [],
     "CleanupFilesAndDirectories": []
   }

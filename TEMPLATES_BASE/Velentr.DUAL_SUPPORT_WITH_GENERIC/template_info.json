@@ -2,7 +2,7 @@
   "Name": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
   "Description": "A library with individual implementations for FNA and Monogame, as well as a generic implementation.",
   "Author": "Christian Webber",
-  "Version": "2023-06-09.2",
+  "Version": "2023-06-26",
   "Settings": {
     "DefaultAuthor": "<CurrentUserName>",
     "DefaultCompanyName": "<CurrentUserName>",
@@ -49,6 +49,8 @@
     "Commands": [
       ".\\install_fna.bat"
     ],
+    "CommandsMac": [],
+    "CommandsLinux": [],
     "Instructions": [
       "The Velentr.DevEnv.FNA, Velentr.DevEnv.Generic, and Velentr.DevEnv.Monogame projects have not been linked fully due to unresolved issues automating this step. Please do so when opening the solution for the first time!",
       "To update FNA, run the `update_fna.bat` script"
