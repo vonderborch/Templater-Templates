@@ -35,14 +35,6 @@
     ],
     "ReplacementText": [
       {
-        "Item1": "Velentr.BASE",
-        "Item2": "<SolutionName>"
-      },
-      {
-        "Item1": "Velentr.DUAL_SUPPORT",
-        "Item2": "<SolutionName>"
-      },
-      {
         "Item1": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
         "Item2": "<SolutionName>"
       }

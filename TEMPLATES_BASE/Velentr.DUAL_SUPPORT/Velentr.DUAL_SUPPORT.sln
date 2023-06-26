@@ -32,10 +32,6 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Velentr.DevEnv", "test\manu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Velentr.DUAL_SUPPORT.Test", "test\automated\Velentr.DUAL_SUPPORT.Test\Velentr.DUAL_SUPPORT.Test.csproj", "{FDBF53CD-2E17-487C-82FA-B5D109C0F3C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Velentr.DevEnv.FNA", "test\manual\Velentr.DevEnv.FNA\Velentr.DevEnv.FNA.csproj", "{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Velentr.DevEnv.Monogame", "test\manual\Velentr.DevEnv.Monogame\Velentr.DevEnv.Monogame.csproj", "{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,22 +72,6 @@ Global
 		{FDBF53CD-2E17-487C-82FA-B5D109C0F3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDBF53CD-2E17-487C-82FA-B5D109C0F3C7}.Release|x64.ActiveCfg = Release|Any CPU
 		{FDBF53CD-2E17-487C-82FA-B5D109C0F3C7}.Release|x64.Build.0 = Release|Any CPU
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Debug|Any CPU.Build.0 = Debug|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Debug|x64.ActiveCfg = Debug|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Debug|x64.Build.0 = Debug|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Release|Any CPU.ActiveCfg = Release|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Release|Any CPU.Build.0 = Release|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Release|x64.ActiveCfg = Release|x64
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B}.Release|x64.Build.0 = Release|x64
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Debug|x64.Build.0 = Debug|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Release|x64.ActiveCfg = Release|Any CPU
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,8 +85,6 @@ Global
 		{546AB09E-CB96-4064-B3F8-A0738E21E3DF} = {E02E054E-3E8C-4207-A92C-A52EAC013DB4}
 		{227895C9-A4FD-43ED-807B-87AF42D69A34} = {C7F6AB0B-00E8-495B-9285-270711E05419}
 		{FDBF53CD-2E17-487C-82FA-B5D109C0F3C7} = {BD106A2B-F285-4A23-95FD-D4F96666732B}
-		{8EE2AB0C-F2BA-4F05-BB93-DFC97040E77B} = {C7F6AB0B-00E8-495B-9285-270711E05419}
-		{3BDF4FE8-2DCD-4ABD-AB40-DA71956D239D} = {C7F6AB0B-00E8-495B-9285-270711E05419}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ea5abe1-bd58-49f2-a70d-89d5043fe486}
@@ -114,9 +92,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{227895c9-a4fd-43ed-807b-87af42d69a34}*SharedItemsImports = 13
 		source\Velentr.DUAL_SUPPORT\Velentr.DUAL_SUPPORT.projitems*{2f24ba50-02c7-4c79-a2f3-c6216a5e2508}*SharedItemsImports = 13
-		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{3bdf4fe8-2dcd-4abd-ab40-da71956d239d}*SharedItemsImports = 5
 		source\Velentr.DUAL_SUPPORT\Velentr.DUAL_SUPPORT.projitems*{508da6ef-fc5a-4cce-b3ea-1eaa51c72117}*SharedItemsImports = 5
 		source\Velentr.DUAL_SUPPORT\Velentr.DUAL_SUPPORT.projitems*{67073604-a543-47b0-bfa4-0758a2c1f2c5}*SharedItemsImports = 5
-		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{8ee2ab0c-f2ba-4f05-bb93-dfc97040e77b}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
